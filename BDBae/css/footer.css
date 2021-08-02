@@ -1,0 +1,16 @@
+.footer {
+	height: 10%;
+	margin-top: 2%;
+	padding: 1%;
+	background-color: #9ADDFB;
+	-webkit-border-radius: 5px;
+}
+
+.last-word, .true-end, .date {
+	font-family: 'Asphyxiate', sans-serif !important;
+	font-size: 23px;
+}
+
+.copyright{
+	display: flex;
+}

@@ -1,0 +1,90 @@
+.after-content {
+	background-color: #9ADDFB;
+	background-image: url("../images/snow2.gif");
+	-webkit-background-repeat: no-repeat;
+	-webkit-background-position: center;
+	-webkit-background-size: cover;
+	-webkit-background-attachment: scroll;
+	height: 30%;
+	margin-top: 2%;
+	padding: 2%;
+	-webkit-border-radius: 5px;
+	font-family: 'Learning Curve', sans-serif !important;
+	font-size: 25px;
+	display: flex;
+	-webkit-justify-content: center;
+}
+
+.message {
+	width: 50%;
+	background-color: #81D4FA;
+	-webkit-border-radius: 10px;
+	text-align: center;
+	-webkit-transition: all 0.5s;
+}
+
+.message:hover {
+	background-color: #68CBF8;
+	-webkit-transform: scale(1.1, 1.1)
+}
+
+.secret {
+	margin-top: 2%;
+	height: 30%;
+	-webkit-border-radius: 5px;
+	background-image: url("../images/snow4.gif");
+	-webkit-background-repeat: no-repeat;
+	-webkit-background-position: center;
+	-webkit-background-size: cover;
+	-webkit-background-attachment: scroll;
+	padding: 2%;
+	display: flex;
+	justify-content: center;
+}
+
+.button {
+	background-color: #35BAF6;
+	padding: 2% 4%;
+	-webkit-border-radius: 10px;
+	border: none;
+  	color: white;
+  	text-decoration: none;
+  	-webkit-box-shadow: 0 9px #999;
+  	-webkit-transition: all 0.1s;
+  	-webkit-cursor: pointer;
+  	font-family: 'Permanent Marker', sans-serif !important;
+  	font-size: 18px;
+}
+
+.button:hover {
+	background-color: #1CB2F5;
+}
+
+.button:active {
+	background-color: #03A9F4;
+  -webkit-box-shadow: 0 5px #666;
+  -webkit-ransform: translateY(4px);
+}
+
+#secretmessage {
+	margin-top: 2%;
+	height: 30%;
+	-webkit-border-radius: 5px;
+	background-color: #35BAF6;
+	padding: 2%;
+	text-align: center;
+	font-family: 'Post-it Penscript', sans-serif !important;
+	font-size: 27px;
+	color: #999;
+	background-image: url("../images/love4.jpg");
+	-webkit-background-repeat: no-repeat;
+	-webkit-background-position: center;
+	-webkit-background-size: cover;
+	-webkit-background-attachment: scroll;
+	padding: 2%;
+	display: none;
+}
+
+#secretmessage:hover {
+	color: #CCC;
+}

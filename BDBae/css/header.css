@@ -1,0 +1,35 @@
+title {
+	font-family: 'Vtks Beautiful Dreams', sans-serif !important;
+}
+
+.header {
+	height: 30%;
+	display: flex;
+	padding: 5px 8px;
+	font-family: sans-serif;
+	background-color: #B3E5FC;
+	-webkit-border-radius: 5px;
+	background-image: url("../images/cloud6.jpg");
+	-webkit-background-repeat: no-repeat;
+	-webkit-background-position: center;
+	-webkit-background-size: cover;
+	-webkit-background-attachment: scroll;
+}
+
+.title {
+	height: 70%;
+	font-size: 80px;
+	font-family: 'Vtks Beautiful Dreams', sans-serif !important;
+	flex-grow: 6;
+	text-align: center;
+	color: #65a765 !important;
+	-webkit-transition: all 0.5s;
+}
+ a:link {
+ 	text-decoration: none;
+ }
+
+ a:hover {
+ 	color: #03A9F4 !important;
+ 	-webkit-transform: scale(1.1, 1.1);
+ }
